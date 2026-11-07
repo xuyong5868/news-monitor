@@ -1,4 +1,4 @@
-name: Daily News Monitor Paraguai
+name: Daily News Monitor
 
 # 1. 触发条件：设置定时运行和手动触发
 on:
