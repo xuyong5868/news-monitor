@@ -26,9 +26,9 @@ RSS_URLS = [
 KEYWORDS = [
     "china", "chinês", "chineses", "chinesa", "chinesas",
     "taiwan", "taiwanês", "taiwaneses", "taiwanesa", "taiwanesas",
-    "Paraguai", "Paraguaio", "Paraguaios", "Paraguaia", "Paraguaias",
+    #"Paraguai", "Paraguaio", "Paraguaios", "Paraguaia", "Paraguaias",
     "Polícia Federal", "Polícia Civil", "Polícia Militar",
-    "PCC",
+    "PCC", "CV",
 ]
 
 # 3. PushPlus 的 Token（填入你在 pushplus.plus 获取的 Token）
