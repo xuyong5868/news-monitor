@@ -80,13 +80,13 @@ def old_send_wechat_notification(news_list):
     
     payload = {
         "token": PUSHPLUS_TOKEN,
-        "title": f"今日新闻监控：命中 {len(len(news_list) if isinstance(news_list, list) else news_list)} 条", # 修正长度计算
+        "title": f"今日巴拉圭新闻监控：命中 {len(len(news_list) if isinstance(news_list, list) else news_list)} 条", # 修正长度计算
         "content": content,
         "template": "markdown"
     }
     
     # 修正推送标题中的长度计算
-    payload["title"] = f"今日新闻监控：命中 {len(news_list)} 条"
+    payload["title"] = f"今日巴拉圭新闻监控：命中 {len(news_list)} 条"
 
     try:
         response = requests.post("http://www.pushplus.plus/send", json=payload)
@@ -112,7 +112,7 @@ def send_wechat_notification(news_list):
     # 修复这里的标题长度计算（直接用 len(news_list) 即可）
     payload = {
         "token": PUSHPLUS_TOKEN,
-        "title": f"今日新闻监控：命中 {len(news_list)} 条",
+        "title": f"今日巴拉圭新闻监控：命中 {len(news_list)} 条",
         "content": content,
         "template": "markdown"
     }
