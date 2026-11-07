@@ -1,0 +1,37 @@
+name: Daily News Monitor
+
+# 1. 触发条件：设置定时运行和手动触发
+on:
+  schedule:
+    # Cron 定时语法（UTC 时间）。下面配置的是每天早上 0:00 UTC 运行
+    # 如果想在北京时间早上 8:00 运行，UTC 时间是 0:00 (北京时间 = UTC + 8)
+    - cron: '0 0 * * *'
+  
+  # 允许你在 GitHub 网页上手动点击按钮立即运行测试
+  workflow_dispatch:
+
+jobs:
+  run-news-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 2. 检出仓库代码
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 3. 设置 Python 环境
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # 4. 安装依赖库
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install feedparser requests
+
+      # 5. 运行 Python 脚本
+      - name: Run script
+        run: |
+          python news_monitor.py
