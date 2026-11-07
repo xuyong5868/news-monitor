@@ -24,9 +24,11 @@ RSS_URLS = [
 
 # 2. 你的过滤关键字（只要标题或摘要包含其中任意一个就会被选中）
 KEYWORDS = [
-    "chinês", "china", "Pequim", "Partido Comunista", "Máfia chinesa",  
-    "PCC", "Lavagem de dinheiro",
-    "flávio", "Paraguai", "Polícia Federal", "Polícia Civil", "Polícia Militar", "Imigrantes ilegais",
+    "china", "chinês", "chineses", "chinesa", "chinesas",
+    "taiwan", "taiwanês", "taiwaneses", "taiwanesa", "taiwanesas",
+    "Paraguai", "Paraguaio", "Paraguaios", "Paraguaia", "Paraguaias",
+    "Polícia Federal", "Polícia Civil", "Polícia Militar",
+    "PCC",
 ]
 
 # 3. PushPlus 的 Token（填入你在 pushplus.plus 获取的 Token）
