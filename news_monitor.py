@@ -25,7 +25,7 @@ RSS_URLS = [
 # 2. 你的过滤关键字（只要标题或摘要包含其中任意一个就会被选中）
 KEYWORDS = [
     "chinês", "china", "Pequim", "Partido Comunista", "Máfia chinesa",  
-    "PCC", "Lavagem de dinheiro", "golpe",
+    "PCC", "Lavagem de dinheiro",
     "flávio", "Paraguai", "Polícia Federal", "Polícia Civil", "Polícia Militar", "Imigrantes ilegais",
 ]
 
