@@ -4,13 +4,30 @@ from datetime import datetime
 
 # ==================== 配置区域 ====================
 # 1. 你想要监控的 RSS 订阅源列表（这里以 Google 新闻中文版、IT之家为例）
-RSS_URLS = [
+Old_RSS_URLS = [
     "https://news.google.com/rss?hl=zh-CN&gl=CN&ceid=CN:zh-CN",
     "https://www.ithome.com/rss/",  # 科技数码类 RSS 示例
 ]
 
+RSS_URLS = [
+    "https://g1.globo.com/rss/g1/",
+    "https://feeds.folha.uol.com.br/emcimadahora/rss091.xml",
+    "http://rss.home.uol.com.br/index.xml",
+    "https://www.estadao.com.br/rss/ultimas.xml",
+    "https://www.cnnbrasil.com.br/feed/",
+    "https://noticias.r7.com/feed.xml",
+    "https://www.poder360.com.br/feed/",
+    "https://braziljournal.com/rss",
+    "https://exame.com/feed/",
+    "https://riotimesonline.com/feed/",
+]
+
 # 2. 你的过滤关键字（只要标题或摘要包含其中任意一个就会被选中）
-KEYWORDS = ["人工智能", "Python", "大模型", "科技"]
+KEYWORDS = [
+    "chinês", "china", "Pequim", "Partido Comunista", "Máfia chinesa",  
+    "PCC", "CV", 
+    "flávio", "lula"
+]
 
 # 3. PushPlus 的 Token（填入你在 pushplus.plus 获取的 Token）
 PUSHPLUS_TOKEN = "39ffbb4223ef4cbab12e7d7897f573c4"
