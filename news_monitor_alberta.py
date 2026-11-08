@@ -24,7 +24,7 @@ RSS_URLS = [
 
     # Calgary Herald / Edmonton Journal
     #"https://calgaryherald.com/feed/",
-    #"https://edmontonjournal.com/feed/",
+    "https://edmontonjournal.com/feed/",
 
     # Calgary Sun / Edmonton Sun
     #"https://calgarysun.com/feed",
@@ -33,9 +33,8 @@ RSS_URLS = [
 
 # 2. 你的过滤关键字（只要标题或摘要包含其中任意一个就会被选中）
 KEYWORDS = [
-    #"China", "Chinese", "immigration",
-    "Paraguai",
-]
+    "China", "Chinese", "immigration",
+    ]
 
 # 3. PushPlus 的 Token（填入你在 pushplus.plus 获取的 Token）
 PUSHPLUS_TOKEN = "39ffbb4223ef4cbab12e7d7897f573c4"
