@@ -11,20 +11,31 @@ Old_RSS_URLS = [
 
 RSS_URLS = [
     # Global News
-    #"https://globalnews.ca/calgary/feed/",
+    "https://globalnews.ca/calgary/feed/",
     "https://globalnews.ca/edmonton/feed/",
 
     # CTV News
-    #"https://calgary.ctvnews.ca/rss/ctv-news-calgary-1.822341",
+    "https://calgary.ctvnews.ca/rss/ctv-news-calgary-1.822341",
     "https://edmonton.ctvnews.ca/rss/ctv-news-edmonton-1.822347",
 
     # Calgary Herald / Edmonton Journal
-    #"https://calgaryherald.com/feed/",
+    "https://calgaryherald.com/feed/",
     "https://edmontonjournal.com/feed/",
 
     # Calgary Sun / Edmonton Sun
-    #"https://calgarysun.com/feed",
+    "https://calgarysun.com/feed",
     "https://edmontonsun.com/feed",
+    
+    "https://www.cbc.ca/webfeed/rss/rss-topstories",
+    "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/canada/",
+    "https://nationalpost.com/feed",
+    "https://www.ctvnews.ca/rss/ctvnews-ca-top-stories-public-rss-1.822009",
+    "https://globalnews.ca/feed/",
+    "https://financialpost.com/feed",
+    "https://www.thestar.com/search/?f=rss&t=article&l=50&s=start_time&sd=desc",
+    "https://edmontonjournal.com/feed",
+    "https://vancouversun.com/feed",
+    "https://macleans.ca/feed/",
 ]
 
 # 2. 你的过滤关键字（只要标题或摘要包含其中任意一个就会被选中）
