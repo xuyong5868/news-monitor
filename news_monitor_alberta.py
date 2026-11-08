@@ -11,23 +11,23 @@ Old_RSS_URLS = [
 
 RSS_URLS = [
    # CBC News
-    "https://www.cbc.ca/webfeed/rss/rss-canada-calgary",
+    #"https://www.cbc.ca/webfeed/rss/rss-canada-calgary",
     "https://www.cbc.ca/webfeed/rss/rss-canada-edmonton",
 
     # Global News
-    "https://globalnews.ca/calgary/feed/",
+    #"https://globalnews.ca/calgary/feed/",
     "https://globalnews.ca/edmonton/feed/",
 
     # CTV News
-    "https://calgary.ctvnews.ca/rss/ctv-news-calgary-1.822341",
+    #"https://calgary.ctvnews.ca/rss/ctv-news-calgary-1.822341",
     "https://edmonton.ctvnews.ca/rss/ctv-news-edmonton-1.822347",
 
     # Calgary Herald / Edmonton Journal
-    "https://calgaryherald.com/feed/",
+    #"https://calgaryherald.com/feed/",
     "https://edmontonjournal.com/feed/",
 
     # Calgary Sun / Edmonton Sun
-    "https://calgarysun.com/feed",
+    #"https://calgarysun.com/feed",
     "https://edmontonsun.com/feed",
 ]
 
