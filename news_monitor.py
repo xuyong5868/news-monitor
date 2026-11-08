@@ -27,7 +27,7 @@ KEYWORDS = [
     "china", "chinês", "chineses", "chinesa", "chinesas",
     "taiwan", "taiwanês", "taiwaneses", "taiwanesa", "taiwanesas",
     #"Paraguai", "Paraguaio", "Paraguaios", "Paraguaia", "Paraguaias",
-    "Polícia Federal", "Polícia Civil", "Polícia Militar", "Ministério Público", "Justiça Federal", "Supremo Tribunal Federal",
+    "Polícia Federal", "Polícia Civil", "Polícia Militar", "Ministério Público", "Justiça Federal", "Supremo Tribunal Federal", "Receita Federal",
     "PCC", "CV",
 ]
 
