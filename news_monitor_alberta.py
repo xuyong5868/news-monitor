@@ -10,10 +10,6 @@ Old_RSS_URLS = [
 ]
 
 RSS_URLS = [
-   # CBC News
-    #"https://www.cbc.ca/webfeed/rss/rss-canada-calgary",
-    #"https://www.cbc.ca/webfeed/rss/rss-canada-edmonton",
-
     # Global News
     #"https://globalnews.ca/calgary/feed/",
     "https://globalnews.ca/edmonton/feed/",
@@ -33,7 +29,7 @@ RSS_URLS = [
 
 # 2. 你的过滤关键字（只要标题或摘要包含其中任意一个就会被选中）
 KEYWORDS = [
-    "China", "Chinese", 
+    "China", "Chinese", "chinatown", "china town",
     "immigration", "immigrant", "immigrants",
     "University of Alberta", "UAlberta", "uofa", 
     ]
