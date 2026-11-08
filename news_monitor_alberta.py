@@ -12,7 +12,7 @@ Old_RSS_URLS = [
 RSS_URLS = [
    # CBC News
     #"https://www.cbc.ca/webfeed/rss/rss-canada-calgary",
-    #"https://www.cbc.ca/webfeed/rss/rss-canada-edmonton",
+    "https://www.cbc.ca/webfeed/rss/rss-canada-edmonton",
 
     # Global News
     #"https://globalnews.ca/calgary/feed/",
@@ -35,6 +35,7 @@ RSS_URLS = [
 KEYWORDS = [
     "China", "Chinese", 
     "immigration", "immigrant", "immigrants",
+    "University of Alberta", "UAlberta", "uofa", 
     ]
 
 # 3. PushPlus 的 Token（填入你在 pushplus.plus 获取的 Token）
