@@ -43,7 +43,7 @@ KEYWORDS = [
     "China", "Chinese", "chinatown", "china town",
     "immigration", "immigrant", "immigrants",
     "University of Alberta", "UAlberta", "uofa", 
-    "Trump",
+    "coop",
     ]
 
 # 3. PushPlus 的 Token（填入你在 pushplus.plus 获取的 Token）
