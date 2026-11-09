@@ -20,6 +20,11 @@ RSS_URLS = [
     "https://braziljournal.com/rss",
     "https://exame.com/feed/",
     "https://riotimesonline.com/feed/",
+    "https://www.gov.br/rss.xml",
+    "https://www.gov.br/pt-br/rss",
+    "https://www.gov.br/receitafederal/RSS",
+    "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/noticias-siscomex-importacao/RSS",
+    "https://www.gov.br/governodigital/pt-br/noticias/RSS"
 ]
 
 # 2. 你的过滤关键字（只要标题或摘要包含其中任意一个就会被选中）
@@ -30,6 +35,7 @@ KEYWORDS = [
     "Polícia Federal", "Polícia Civil", "Polícia Militar", "Ministério Público", "Justiça Federal", "Supremo Tribunal Federal", "Receita Federal",
     "Secretaria da Segurança Pública", "Segurança Pública",
     "PCC", "CV",
+    "Ibama", "transporte clandestino", "ovos de aves",
 ]
 
 # 3. PushPlus 的 Token（填入你在 pushplus.plus 获取的 Token）
