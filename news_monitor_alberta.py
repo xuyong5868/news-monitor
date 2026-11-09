@@ -26,8 +26,8 @@ RSS_URLS = [
     "https://calgarysun.com/feed",
     "https://edmontonsun.com/feed",
     
-    #"https://www.cbc.ca/webfeed/rss/rss-topstories",
-    #"https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/canada/",
+    "https://www.cbc.ca/webfeed/rss/rss-topstories",
+    "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/canada/",
     "https://nationalpost.com/feed",
     #"https://www.ctvnews.ca/rss/ctvnews-ca-top-stories-public-rss-1.822009",
     #"https://globalnews.ca/feed/",
