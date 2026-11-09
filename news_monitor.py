@@ -25,6 +25,7 @@ RSS_URLS = [
     #"https://www.gov.br/receitafederal/RSS",
     #"https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/noticias-siscomex-importacao/RSS",
     #"https://www.gov.br/governodigital/pt-br/noticias/RSS"
+    "https://agenciabrasil.ebc.com.br/rss.xml",
 ]
 
 # 2. 你的过滤关键字（只要标题或摘要包含其中任意一个就会被选中）
@@ -35,7 +36,7 @@ KEYWORDS = [
     "Polícia Federal", "Polícia Civil", "Polícia Militar", 
     "Ministério Público", "Justiça Federal", "Supremo Tribunal Federal", "Receita Federal",
     "Secretaria da Segurança Pública", #"Segurança Pública",
-    "PCC", "CV",
+    "PCC", "CV", "PGR", "STF",
     "Ibama", "transporte clandestino", "ovos de aves",
 ]
 
