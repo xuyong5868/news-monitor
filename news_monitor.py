@@ -20,11 +20,11 @@ RSS_URLS = [
     "https://braziljournal.com/rss",
     "https://exame.com/feed/",
     "https://riotimesonline.com/feed/",
-    "https://www.gov.br/rss.xml",
-    "https://www.gov.br/pt-br/rss",
-    "https://www.gov.br/receitafederal/RSS",
-    "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/noticias-siscomex-importacao/RSS",
-    "https://www.gov.br/governodigital/pt-br/noticias/RSS"
+    #"https://www.gov.br/rss.xml",
+    #"https://www.gov.br/pt-br/rss",
+    #"https://www.gov.br/receitafederal/RSS",
+    #"https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/noticias-siscomex-importacao/RSS",
+    #"https://www.gov.br/governodigital/pt-br/noticias/RSS"
 ]
 
 # 2. 你的过滤关键字（只要标题或摘要包含其中任意一个就会被选中）
@@ -32,8 +32,9 @@ KEYWORDS = [
     "china", "chinês", "chineses", "chinesa", "chinesas",
     "taiwan", "taiwanês", "taiwaneses", "taiwanesa", "taiwanesas",
     #"Paraguai", "Paraguaio", "Paraguaios", "Paraguaia", "Paraguaias",
-    "Polícia Federal", "Polícia Civil", "Polícia Militar", "Ministério Público", "Justiça Federal", "Supremo Tribunal Federal", "Receita Federal",
-    "Secretaria da Segurança Pública", "Segurança Pública",
+    "Polícia Federal", "Polícia Civil", "Polícia Militar", 
+    "Ministério Público", "Justiça Federal", "Supremo Tribunal Federal", "Receita Federal",
+    "Secretaria da Segurança Pública", #"Segurança Pública",
     "PCC", "CV",
     "Ibama", "transporte clandestino", "ovos de aves",
 ]
