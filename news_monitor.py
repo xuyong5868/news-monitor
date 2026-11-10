@@ -20,9 +20,9 @@ RSS_URLS = [
     "https://braziljournal.com/rss",
     "https://exame.com/feed/",
     "https://riotimesonline.com/feed/",
-    #"https://www.gov.br/rss.xml",
+    "https://www.gov.br/rss.xml",
     #"https://www.gov.br/pt-br/rss",
-    "https://www.gov.br/receitafederal/RSS",
+    #"https://www.gov.br/receitafederal/RSS",
     #"https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/noticias-siscomex-importacao/RSS",
     #"https://www.gov.br/governodigital/pt-br/noticias/RSS"
     "https://agenciabrasil.ebc.com.br/rss.xml",
