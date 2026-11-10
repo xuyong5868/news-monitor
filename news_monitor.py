@@ -35,7 +35,7 @@ KEYWORDS = [
     #"Paraguai", "Paraguaio", "Paraguaios", "Paraguaia", "Paraguaias",
     "Polícia Federal", "Polícia Civil", "Polícia Militar", 
     "Ministério Público", "Justiça Federal", "Supremo Tribunal Federal", "Receita Federal",
-    "Secretaria da Segurança Pública", "Segurança Pública",
+    "Secretaria da Segurança Pública", #"Segurança Pública",
     "PCC", "CV", "PGR", "STF",
     "Ibama", "transporte clandestino", "ovos de aves",
 ]
