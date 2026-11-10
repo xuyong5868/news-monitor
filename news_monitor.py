@@ -22,7 +22,7 @@ RSS_URLS = [
     "https://riotimesonline.com/feed/",
     #"https://www.gov.br/rss.xml",
     #"https://www.gov.br/pt-br/rss",
-    #"https://www.gov.br/receitafederal/RSS",
+    "https://www.gov.br/receitafederal/RSS",
     #"https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/noticias-siscomex-importacao/RSS",
     #"https://www.gov.br/governodigital/pt-br/noticias/RSS"
     "https://agenciabrasil.ebc.com.br/rss.xml",
@@ -35,7 +35,7 @@ KEYWORDS = [
     #"Paraguai", "Paraguaio", "Paraguaios", "Paraguaia", "Paraguaias",
     "Polícia Federal", "Polícia Civil", "Polícia Militar", 
     "Ministério Público", "Justiça Federal", "Supremo Tribunal Federal", "Receita Federal",
-    "Secretaria da Segurança Pública", #"Segurança Pública",
+    "Secretaria da Segurança Pública", "Segurança Pública",
     "PCC", "CV", "PGR", "STF",
     "Ibama", "transporte clandestino", "ovos de aves",
 ]
