@@ -26,6 +26,9 @@ RSS_URLS = [
     #"https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/noticias-siscomex-importacao/RSS",
     #"https://www.gov.br/governodigital/pt-br/noticias/RSS"
     "https://agenciabrasil.ebc.com.br/rss.xml",
+    "https://www.poder360.com.br/feed/",
+    "https://www.brasil247.com/feed",
+    "https://revistaforum.com.br/feed/",
 ]
 
 # 2. 你的过滤关键字（只要标题或摘要包含其中任意一个就会被选中）
